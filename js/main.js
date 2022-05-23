@@ -29,14 +29,14 @@ videoBtn.addEventListener('click', function () {
 
     if (videoFile.paused) {
         videoFile.play();
-        videoBtnIcon.src = "/img/story/pause-white.svg";
+        videoBtnIcon.src = "./img/story/pause-white.svg";
 
         videoOverlay.onmouseleave = toggleOverlay;
         videoOverlay.onmouseenter = toggleOverlay;
 
     } else {
         videoFile.pause();
-        videoBtnIcon.src = "/img/story/play-white.svg";
+        videoBtnIcon.src = "./img/story/play-white.svg";
         videoOverlay.onmouseleave = null;
         videoOverlay.onmouseenter = null;
     };
